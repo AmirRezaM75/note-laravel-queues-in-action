@@ -13,11 +13,17 @@ php artisan queue:table
 Running this command will create a migration file.
 
 The `queue` column will hold the name of the queue a job is stored in.
+
 The `payload` column will hold the body of the job, which is the string representation of the job object.
+
 The `attempts` column will hold the number of times the job has been attempted.
+
 The `reserved_at` column will hold the timestamp of when a worker picked up this job.
+
 The `available_at` column will hold the timestamp of when workers are allowed to pick this job up.
+
 The `created_at` column will hold the timestamp of when the job was dispatched to the queue.
+
 # Sending email verification messages
 
 Create a job to send email verification notification:
