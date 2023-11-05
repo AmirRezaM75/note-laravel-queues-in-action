@@ -1,4 +1,4 @@
-# Configuring the queue
+# Configuring the Queue
 
 We're going to use the database queue driver. It's easy to set up and gives us a high level of visibility.
 
@@ -24,7 +24,7 @@ The `available_at` column will hold the timestamp of when workers are allowed to
 
 The `created_at` column will hold the timestamp of when the job was dispatched to the queue.
 
-# Sending email verification messages
+# Sending Email Verification Messages
 
 Create a job to send email verification notification:
 
