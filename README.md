@@ -6,3 +6,5 @@ Summary of [Laravel Queues in Action](https://learn-laravel-queues.com/) book by
 3. [High priority jobs](./03-high_priority_jobs.md)
 4. [Retrying failed jobs](04-retrying_failed_jobs.md)
 5. [Configuring automatic retries](./05-configuring_automatic_retries.md)
+6. [Canceling abandoned orders](./06-canceling_abandoned_orders.md)
+7. [Sending webhooks](./07-sending_webhooks.md)

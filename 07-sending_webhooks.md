@@ -1,4 +1,3 @@
-
 # Sending Webhooks
 
 The challenge we have here is implementing an exponential webhook retry policy in which the retry backoff is increased by 15 minutes after every attempt. The service keeps attempting the webhook for 24 hours and sends an alert to the partner at the end of this period.
