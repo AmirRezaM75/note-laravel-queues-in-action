@@ -9,3 +9,4 @@ Summary of [Laravel Queues in Action](https://learn-laravel-queues.com/) book by
 6. [Canceling abandoned orders](./06-canceling_abandoned_orders.md)
 7. [Sending webhooks](./07-sending_webhooks.md)
 8. [Provisioning a Forge server](08-provisioning_a_forge_server.md)
+9. [Canceling a conference](./09-canceling_a_conference.md)
